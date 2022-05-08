@@ -49,7 +49,7 @@ class File extends Stream {
 
         await this.generate(command);
 
-        return this.download( location );
+        return this.download( input.Key );
     }
 
     /***
