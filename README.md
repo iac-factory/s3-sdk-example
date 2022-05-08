@@ -6,7 +6,7 @@
 ## Usage ##
 
 ```typescript
-import { File } from "@cloud/s3";
+import { File } from "./interface";
 
 const interface = new File();
 await interface.get({
