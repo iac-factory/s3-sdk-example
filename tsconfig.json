@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/node16-strictest-esm",
+    "buildOptions": {"traceResolution": true, "verbose": true},
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "diagnostics": true,
+        "importsNotUsedAsValues": "remove",
+        "exactOptionalPropertyTypes": false,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom"]
+    }, "compileOnSave": true,
+    "exclude": ["build", "source", "distribution", "commitlint.config.js"]
+}
