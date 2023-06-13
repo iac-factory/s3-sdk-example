@@ -9,8 +9,8 @@
         "@types/archiver": "^5.3.1",
         "@aws-sdk/types": "^3.78.0",
         "@cdktf/provider-aws": "^7.0.44",
-        "@aws-sdk/client-s3": "^3.83.0",
-        "@aws-sdk/credential-providers": "^3.82.0",
+        "@aws-sdk/client-s3": "^3.350.0",
+        "@aws-sdk/credential-providers": "^3.351.0",
         "@tsconfig/node16-strictest-esm": "^1.0.1",
         "@aws-sdk/s3-request-presigner": "^3.83.0"
     }
